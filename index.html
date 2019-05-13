@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude Home</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand box" href="index.html"> 
+                        <span >Latitude</span></a>
+                    </div>
+        
+                    <div class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="MaxTemp.html">Temperature</a></li>
+                                <li><a href="Humidity.html">Humidity</a></li>
+                                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                                <li><a href="WindSpeed.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Plots.html"> Comparison</a></li>
+                        <li><a href="Data.html"> Data</a></li>      
+                        <li><a href="index.html"> Home</a></li>                                       
+                    </div>
+                </div>      
+            </nav>
+        
+    </div>
+
+    <br>
+  <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-body mainpage">
+                    <h2>Purpose  </h2>
+                    <hr>
+                    <img class="image" img src="assets/images/Temp.png" width="450" height="450" >
+                    <hr>
+                    <p>The purpose of this project was to analysis how weather patterns may change and alter as you get 
+                    closer to the equator.  To accomplish this analysis, we pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.  
+                    </p>
+                    <p>After assembling the data, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed,
+                    and humidity.  This site provides the source data and visulizations created as paer of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    </p> 
+                          
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+        <div class="panel panel-default">
+                <div class="panel-body mainpage"> 
+
+                <h2>Visualizations</h2>
+                <hr>
+                <br><br>
+                <div class="row" >
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="MaxTemp.html"><img class = "img img-responsive" src="assets\images\Temp.png" style="width:100%" alt=""></a> </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Humidity.html"><img class = "img img-responsive" src="assets\images\Humidity.png" style="width:100%" alt=""></a> </div>
+                </div>
+               <br><br>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="WindSpeed.html"><img class = "img img-responsive" src="assets\images\Wind Speed.png" style="width:100%" alt=""></a> </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Cloudiness.html"><img class = "img img-responsive" src="assets\images\Cloudiness.png" style="width:100%" alt=""></a> </div>
+                </div> 
+                <br><br>
+                </div> 
+      
+        </div>     
+                        
+			  
+</body>
+
+</html>
